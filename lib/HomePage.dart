@@ -68,13 +68,6 @@ class _HomePageState extends State<HomePage> {
                         return Column(
                           children: [
                             Container(
-                              child: Row(
-                                children: [
-                                  Expanded(child: Container(child: Text(snapshot.data![index].,),)
-                                ],
-                              ),
-                            )
-                            Container(
                               child: Column(
                                 children: [
                                   Container(
